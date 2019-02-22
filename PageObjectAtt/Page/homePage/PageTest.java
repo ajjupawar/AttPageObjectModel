@@ -10,6 +10,7 @@ import utility.TestBase;
 public class PageTest extends TestBase {
 	
 public BrowserConfiguration br; 
+//New comment is added
  
 	
 	public PageTest() {
@@ -32,9 +33,9 @@ public BrowserConfiguration br;
 	 ShopSupportPage3Verify pv3=new ShopSupportPage3Verify(driver);
 	 pv3.verifyManufacturer();
 	 pv3.verifySamsungRedio();
-	/* String str=driver.getTitle();
+	String str=driver.getTitle();
 	 System.out.println("Title is equals to ="+str);
-*/  }
+ }
  /* @Test
   public void attHome() {
 	  PageVerify pv=new PageVerify(driver);
